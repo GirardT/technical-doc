@@ -1,0 +1,30 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+         Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+       */
+  font-size: 12px;
+}
+
+body {
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.4rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+img#header-img {
+  height: 100px;
+}
+
+footer {
+  font-size: 1.4rem;
+
+}
+
+@media (max-width: 600px) {
+  body {
+      background-color: lightblue;
+  }
+}
